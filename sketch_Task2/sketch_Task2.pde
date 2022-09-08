@@ -4,6 +4,8 @@ void setup() {
   boolean isHappy = true;
   println("Hi, my name is " + name);
   println("I am " + age + " years old");
-  if (!isHappy)
+  if (isHappy)
+    println("I clap my hands");
+  else
     println("I dont clap my hands");
 }
