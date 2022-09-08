@@ -43,7 +43,7 @@ void MethodTwo(int weekDay)
   }
   
   // Print the name of the weekday here: 
-  String[] weekdays = new String[] { "Mandag", "Tirsdag", "Onsdag", "Torsdag", "Fredag", "Lørdag", "Søndag"};
+  String[] weekdays = new String[] { "Mandag", "Tirsdag", "Onsdag", "Torsdag", "Fredag", "Lørdag", "Søndag" };
   println(weekdays[weekDay]);
   
   // Print if it is weekend here:
